@@ -1,0 +1,27 @@
+[
+    {
+      "question": "Какой компонент чаще всего используют для навигации между страницами в React?",
+      "answers": ["Link", "NavLink", "Router", "Route"],
+      "correct": "Link"
+    },
+    {
+      "question": "Какой пакет обычно подключают для маршрутизации в React проектах?",
+      "answers": ["react-dom", "react-router-dom", "redux", "axios"],
+      "correct": "react-router-dom"
+    },
+    {
+      "question": "Какой инструмент используют для управления состоянием в больших проектах?",
+      "answers": ["Context API", "Redux", "Zustand", "Все вышеперечисленные"],
+      "correct": "Все вышеперечисленные"
+    },
+    {
+      "question": "Какой хук чаще всего применяют для загрузки данных из API?",
+      "answers": ["useState", "useRef", "useEffect", "useMemo"],
+      "correct": "useEffect"
+    },
+    {
+      "question": "Какой менеджер пакетов чаще всего используют для установки библиотек в React?",
+      "answers": ["npm", "yarn", "pnpm", "Все варианты правильные"],
+      "correct": "Все варианты правильные"
+    }
+  ]

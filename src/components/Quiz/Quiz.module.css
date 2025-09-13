@@ -1,0 +1,22 @@
+.answerButton {
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .correct {
+    background-color: #52c41a; /* зелёный */
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: #f5222d; /* красный */
+    color: white;
+  }
+  
+  .default {
+    background-color: #f0f0f0;
+  }

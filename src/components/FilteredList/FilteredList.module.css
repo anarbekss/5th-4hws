@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ulcontainer {
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-decoration: none;
+}
+li {
+    color: rgb(14, 241, 196);
+    list-style: none;
+}
+
+.UserCard {
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+    
+}
+button {
+    background-color: transparent;
+    border: 1px solid aqua;
+}

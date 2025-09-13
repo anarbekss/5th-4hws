@@ -13,11 +13,12 @@ export const Weather = () => {
     if (cityKey in WeatherData) {
       setWeather(WeatherData[cityKey]);
       setOpen(true);
+      setInputValue('')
     } else {
       setOpen(false);
       setWeather(null);
     }
-    console.log(weather);
+    console.log(inputValue, 'weather');
   }
 
   return (
