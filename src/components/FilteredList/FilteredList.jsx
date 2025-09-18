@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useCallback } from "react";
 import { FilterButton } from "./FilterButton";
 import { FilterDelete } from "./FilterDelete";
-import style from "./FilteredList.module.css";
+import style from "./FilteredList.module.scss";
 
 export const ExpensiveCalculation = () => {
   const [filter, setFilter] = useState("");
@@ -52,7 +52,7 @@ export const ExpensiveCalculation = () => {
               
               <li>{user.name}</li>
               
-              <button onClick={() => deletUser(user.id)}>Удалить</button>
+              <button onClick={() => deletUser(user.id)} className="FirterBtn">Удалить</button>
             
             </div>
           

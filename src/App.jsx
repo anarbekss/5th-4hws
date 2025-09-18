@@ -6,10 +6,9 @@ import question from './components/db/questions.json'
 import { ExpensiveCalculation } from './components/FilteredList/FilteredList'
 
 import { Quiz } from './components/Quiz/quiz'
-
+import  { AuthForm } from './components/AuthForm/AuthForm'
+import { toast } from 'react-toastify'
 function App() {
-
-
 
   return (
     <>
@@ -23,9 +22,15 @@ function App() {
       <button onClick={handle}></button> */}
 
       {/* <Quiz question={question} />   */}
-      <Counter/>
+      {/* <Counter/> */}
 
-      <ExpensiveCalculation/>
+      {/* <ExpensiveCalculation/> */}
+      <div className="Background">
+
+      <AuthForm/>
+      </div>
+
+      
     </>
   )
 }
