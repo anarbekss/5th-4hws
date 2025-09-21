@@ -7,7 +7,7 @@ import { ExpensiveCalculation } from './components/FilteredList/FilteredList'
 
 import { Quiz } from './components/Quiz/quiz'
 import  { AuthForm } from './components/AuthForm/AuthForm'
-import { toast } from 'react-toastify'
+import { Posts } from './components/Posts/Posts'
 function App() {
 
   return (
@@ -25,10 +25,14 @@ function App() {
       {/* <Counter/> */}
 
       {/* <ExpensiveCalculation/> */}
-      <div className="Background">
+      {/* <div className="Background">
 
       <AuthForm/>
-      </div>
+      </div> */}
+
+      <Posts/>
+
+
 
       
     </>
